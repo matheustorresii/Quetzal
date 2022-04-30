@@ -7,6 +7,8 @@ defmodule QuetzalWeb.Router do
 
   scope "/api", QuetzalWeb do
     pipe_through :api
+
+    get "/", IMCController, :index
   end
 
   # Enables LiveDashboard only for development
