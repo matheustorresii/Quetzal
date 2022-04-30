@@ -1,0 +1,24 @@
+{
+    "name": "NAME",
+    "hp": 0,
+    "attack": 0,
+    "extension": 0,
+    "defense": 0,
+    "speed": 0,
+    "summon": {
+        "name": "NAME",
+        "effect": "EFFECT"
+    },
+    "money": 0,
+    "items": [{
+        "name": "NAME",
+        "effect": "EFFECT",
+        "size": "SIZE"
+    }],
+    "abilities": [{
+        "name": "NAME",
+        "power": 0,
+        "pp": 0,
+        "effects": ["EFFECT"]
+    }]
+}

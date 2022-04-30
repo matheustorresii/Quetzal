@@ -1,0 +1,20 @@
+[{
+    "name": "Yareth",
+    "hp": 1000,
+    "attack": 1,
+    "extension": 1,
+    "defense": 1000,
+    "speed": 1,
+    "summon": {
+        "name": "Quetzalcoatl",
+        "effect": "SIZE"
+    },
+    "money": 0,
+    "items": [],
+    "abilities": [{
+        "name": "Benção da Serpente",
+        "power": 1,
+        "pp": 10,
+        "effects": ["HEAL"]
+    }]
+}]

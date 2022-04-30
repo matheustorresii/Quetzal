@@ -5,18 +5,16 @@ defmodule Quetzal.IMC do
     |> handle_file()
   end
 
-  defp handle_file({:ok, content}) do
-    data = content
+  defp handle_file({:ok, data}), do: {:ok, handle_data(data)}
+
+  defp handle_file({:error, _error}), do: {:error, "Error while opening the file"}
+
+  defp handle_data(data) do
+    data
     |> String.split("\n")
     #  Enum.map(fn elem -> parse_line(elem) end)
     |> Enum.map(&parse_line/1)
     |> Enum.into(%{})
-
-    {:ok, data}
-  end
-
-  defp handle_file({:error, _error}) do
-    {:error, "Error while opening the file"}
   end
 
   defp parse_line(line) do

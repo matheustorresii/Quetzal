@@ -10,6 +10,7 @@ defmodule QuetzalWeb.IMCController do
   end
 
   defp handle_response({:ok, result}, conn), do: render_response(conn, result, :ok)
+
   defp handle_response({:error, result}, conn), do: render_response(conn, result, :bed_request)
 
   defp render_response(conn, result, status) do

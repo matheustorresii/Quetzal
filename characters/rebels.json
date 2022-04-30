@@ -1,0 +1,128 @@
+[{
+        "name": "Anya",
+        "hp": 100,
+        "attack": 45,
+        "extension": 40,
+        "defense": 50,
+        "speed": 40,
+        "summon": {
+            "name": "Nemesis",
+            "effect": "COUNTER"
+        },
+        "money": 1900,
+        "items": [],
+        "abilities": [{
+                "name": "RETRIBUIÇÃO",
+                "power": 0,
+                "pp": 5,
+                "effects": ["COUNTER"]
+            },
+            {
+                "name": "IGUALDADE",
+                "power": 0,
+                "pp": 5,
+                "effects": ["ENDEAVOR"]
+            },
+            {
+                "name": "JUSTIÇA DIVINA",
+                "power": 1,
+                "pp": 5,
+                "effects": ["COMBO"]
+            },
+            {
+                "name": "HUMILDADE",
+                "power": 0,
+                "pp": 10,
+                "effects": ["NERF_ATK"]
+            }
+        ]
+    },
+    {
+        "name": "Ayie",
+        "hp": 68,
+        "attack": 43,
+        "extension": 78,
+        "defense": 55,
+        "speed": 31,
+        "summon": {
+            "name": "Emere",
+            "effect": "PROTECT"
+        },
+        "money": 3000,
+        "items": [],
+        "abilities": [{
+                "name": "Interdimensional",
+                "power": 1,
+                "pp": 10,
+                "effects": ["COMBO"]
+            },
+            {
+                "name": "Neclo",
+                "power": 0,
+                "pp": 3,
+                "effects": ["TRIPLE_BUFF_ATK", "TRIPLE_NERF_DEF"]
+            },
+            {
+                "name": "Roubar vida",
+                "power": 1,
+                "pp": 10,
+                "effects": ["DRAIN"]
+            },
+            {
+                "name": "Cale-se para sempre",
+                "power": 0,
+                "pp": 10,
+                "effects": ["COUNTER"]
+            }
+        ]
+    },
+    {
+        "name": "Maha",
+        "hp": 95,
+        "attack": 100,
+        "extension": 5,
+        "defense": 65,
+        "speed": 10,
+        "summon": {
+            "name": "Zhu Que",
+            "effect": "HEAL"
+        },
+        "money": 4000,
+        "items": [{
+                "name": "Esfera de Anúbis Vermelha",
+                "effect": "BUFF_ATK",
+                "size": "SMALL"
+            },
+            {
+                "name": "Pena de Grifo",
+                "effect": "REVIVE",
+                "size": "LARGE"
+            }
+        ],
+        "abilities": [{
+                "name": "Interdimensional",
+                "power": 1,
+                "pp": 10,
+                "effects": ["COMBO"]
+            },
+            {
+                "name": "Neclo",
+                "power": 0,
+                "pp": 3,
+                "effects": ["TRIPLE_BUFF_ATK", "TRIPLE_NERF_DEF"]
+            },
+            {
+                "name": "Roubar vida",
+                "power": 1,
+                "pp": 10,
+                "effects": ["DRAIN"]
+            },
+            {
+                "name": "Cale-se para sempre",
+                "power": 0,
+                "pp": 10,
+                "effects": ["COUNTER"]
+            }
+        ]
+    }
+]

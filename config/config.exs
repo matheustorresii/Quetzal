@@ -10,6 +10,10 @@ use Mix.Config
 config :quetzal,
   ecto_repos: [Quetzal.Repo]
 
+config :quetzal, Quetzal.Repo,
+  migration_primary_key: [type: :binary_id],
+  migration_foreign_key: [type: :binary_id]
+
 # Configures the endpoint
 config :quetzal, QuetzalWeb.Endpoint,
   url: [host: "localhost"],
